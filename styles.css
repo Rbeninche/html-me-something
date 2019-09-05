@@ -1,5 +1,5 @@
 body {
-    background-color: #e9ecef;
+    background-color: #EAE6DA;
     font-size: 17px;
   line-height: 1.4;
   font-family: 'Jaldi', sans-serif;
@@ -46,13 +46,7 @@ body {
     font-weight: 300;
 
 }
-.main-bio__paragraph .emphasis {
-    padding: .2rem .4rem;
-    font-size: 87.5%;
-    color: #fff;
-    background-color: #212529;
-    border-radius: .2rem
-}
+
 
 
 .main-bio__picture {
@@ -66,11 +60,16 @@ body {
     height: 45vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  transition: all 1s;
+  cursor: pointer;
   
 }
 
+
+
 .main-bio__image-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
 }
 
 .main-goal__title {
@@ -84,9 +83,12 @@ body {
   border-right: 2px solid lightslategray;
     box-shadow: 4px 4px 5px #a8b5bb;
 }
+.main-goal__paragraphs {
+    padding: 40px
+}
 
-.main-goal__paragraph {
-    text-align: justify
+p.main-goal__paragraph {
+    text-align: justify;
 }
 
 p.skills-section__paragraph {
