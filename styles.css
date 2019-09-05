@@ -1,0 +1,159 @@
+body {
+    background-color: #e9ecef;
+    font-size: 17px;
+  line-height: 1.4;
+  font-family: 'Jaldi', sans-serif;
+  height: 100vh;
+}
+
+.main-header {
+    width: 100%;
+    
+}
+
+.main-header__title {
+    text-align: center;
+    text-decoration: underline overline;
+}
+.main-header__name {
+    text-align: center;
+    font-family: fantasy;
+    border-bottom: 2px solid lightslategray;
+    border-right: 2px solid lightslategray;
+    width: 415px;
+    box-shadow: 4px 4px 5px #227093;
+}
+
+.bio-flex-container {
+    display: flex;   
+}
+
+.bio-flex-container > div {
+  margin: 10px;
+}
+
+.main-bio {
+    
+    height: 55vh
+}
+.main-bio__text {
+    align-self: center
+}
+
+
+.main-bio__paragraph, .main-goal__paragraph  {
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+.main-bio__paragraph .emphasis {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem
+}
+
+
+.main-bio__picture {
+    width: 400px;
+    -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-bio__image-card {
+    
+    height: 45vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  
+}
+
+.main-bio__image-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.main-goal__title {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: fantasy;
+  border-bottom: 2px solid lightslategray;
+  border-right: 2px solid lightslategray;
+    box-shadow: 4px 4px 5px #a8b5bb;
+}
+
+.main-goal__paragraph {
+    text-align: justify
+}
+
+p.skills-section__paragraph {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline
+    
+}
+
+ul.skills-section__skills {
+    margin: 10px
+}
+
+li.skills-section__skill {
+    font-size: 1.25rem;
+}
+
+
+
+
+.main-footer {
+    padding: 40px 0;
+    background-color: #dedede;
+    text-align: center;
+  }
+  
+  .main-footer a {
+    color: #333;
+  }
+  
+  .main-footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .main-footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  .main-footer .facebook:hover {
+    color: #3B5998;
+  }
+  
+  .main-footer .twitter:hover {
+    color: #4099FF;
+  }
+  
+  .main-footer .github:hover {
+    color: #d34836;
+  }
+  
+  .main-footer .linkedin:hover {
+    color: #f39c12;
+  }
+
+
+
